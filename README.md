@@ -31,14 +31,14 @@ A minimal yet modular HTTP server in Java built from scratch — supports:
 
 ## 📁 Directory Layout
 SimpleJavaHTTPServer/
-├── public/ # Static files to serve
+1. ├── public/ # Static files to serve
 │ └── index.html
-├── src/
+2. ├── src/
 │ └── server/
 │ ├── SimpleHTTPServer.java
 │ ├── ClientHandler.java
 │ └── HTTPUtils.java
-├── README.md
+3. ├── README.md
 
 
 ---
