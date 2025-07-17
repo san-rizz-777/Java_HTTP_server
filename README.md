@@ -55,12 +55,6 @@ SimpleJavaHTTPServer/
 
 ---
 
-## 🧪 Example
-
-Request:
-```http
-GET / HTTP/1.1
-Host: localhost:8080
 
 ## 🔮 Future Ideas & Improvements
 
@@ -71,8 +65,9 @@ Host: localhost:8080
 - 🧪 Add **unit tests** for handlers and utility methods  
 - 📦 Support **MIME upload/file download** features  
 - 🌐 Enable **CORS** headers for cross-origin support
+---
 
-## 📬 Feedback & Contact
+ 📬 Feedback & Contact
 
 Have suggestions, feedback, or want to collaborate?
 
