@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTf-8">
+        <meta http-equiv="X-UA-Compatible"  content="IE-edge">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Document</title>
+    </head>
+    
+    <body>
+        <header style="color:purple;background-color: plum;">
+<h1 style="color:aqua">Welcome to the registration form!!</h1>
+<h4>We are happy to onboard you!!</h4>
+<h5>Please fill the below form!!</h5>
+
+        </header>
+        <form action="index.php" method="POST">
+
+            <hr>
+            <label for="username">username:</label>
+            <input type="text" id="username" required min="3" max="8" placeholder="sanGui"><br>
+            <br>
+
+           <label for="password">password:</label>
+          <input type="password" id="password" required min="8" patttern="[A-Z]{1}[a-z]{5}[0-9]{3}" placeholder="Sanskar777"><br><br>
+          
+          <label for="bd"> birth_date:</label>
+          <input type="date" id="bd"><br><br>   
+
+          <label for="Prof">Proffesion:</label>
+          <select id="Prof">
+            <option value="Student">Student </option>
+            <option value="Developer">Developer</option>
+            <option value="Quant Trader">Quant Trader </option>
+            <option value="Consulting">Consulting</option>
+            <option value="HR">HR</option>
+            <option value="Others">Others</option>
+            <option value="Unemployed">Unmeployed</option>
+          </select><br><br>
+
+          <label for="MS">Maritial status:</label>
+
+          <label for="Single">Single</label>
+          <input type="radio" id="Single" value="Single" name="MS">
+
+          <label for="Married">Married</label>
+          <input type="radio" id="Married" value="Married" name="MS">
+
+          <label for="DNT">Don't want to diclose</label>
+          <input type="radio" id="DNT" value="Don't disclose" name="MS"><br><br>
+
+          <label for="fle">Insert the file: </label>
+          <input type="file" id="fle" accept="image/jpeg,image/png"><br><br>
+
+          <label for="Cmt">Any comments/suggestions:-</label>
+          <textarea id="Cmt" rows="5" cols="10"></textarea><br><br>
+
+          <label for="TnC">Have you read all TnC?</label>
+          <input type="checkbox" id="TnC"><br><br>
+
+            <label for="clr">Clear all:-</label>
+            <input type="reset" id="clr"><br><br>
+            <input type="submit"><br>
+
+        </form>
+
+        <footer style="background-color: tomato;">
+            <hr>
+      
+            <em style="color: cyan;">By Sanskar</em><br>
+            &copy; 2025 copyright reserved<br>
+            <small><a href="mailto:sanskargunde@gmail.com">Brocode@fakesup.com</a></small>
+              
+        </footer>
+    </body>
+</html>
